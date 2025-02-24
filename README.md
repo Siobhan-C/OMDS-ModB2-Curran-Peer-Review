@@ -1,6 +1,7 @@
 # AI for Leaders
-# Week 2 - Preprocessing, part 2
-Datasets
+
+## Datasets
+
 The Real Estate in Austin project will leverage the following datasets to analyze real estate trends and profitability in the Austin area:
 
 1. Inside Airbnb
@@ -19,6 +20,8 @@ Source: Shahriar Sakib, A. (2023). USA Real Estate Dataset. Kaggle.com. https://
 Scope: Contains over 1 million property listings across the U.S., including price, size, broker, and status of the listing.
 Focus: While it's broad, it provides valuable context for Austin’s real estate market by comparing it with national trends.
 <b>*** This data set could not be uploaded to github due to this size. Please see the link above to access the data directly.</b>
+
+## Week 2 - Preprocessing, part 2
 
 -------------------------------
 Assignment
@@ -40,5 +43,23 @@ We strongly encourage you to start your assignment as early as possible. This wi
 
 This assignment will also be submitted for peer review and feedback in Week 3.
 
+## Week 4 - Univariate Analysis, part 2
+Univariate Analysis, Part 2: Working on Your Datasets
+Your homework assignment must be accessed using GitHub Classroom. 
 
+Assignments will include a Weekly Graph Question, Exploratory Data Analysis using either your own datasets or the dataset provided, and recreating a graph from the Storytelling With Data (SWD) textbook.
+
+Complete your work and answer any questions posed in the assignment directly in your Jupyter Notebook. You will turn in this weekly Jupyter Notebook with your Milestone Three assignment in Week 7.
+
+Follow the link below to access the Jupyter Notebook with this week’s homework assignment, “Univariate Analysis, Part 2” in GitHub Classroom.
+
+https://github.com/joshua-vonkorff/2025-spring-B2
+
+Download the file and rename your notebook according to the following naming convention: OMDS-ModB2-Week[#]-[Your last name]-[Your first name] For example, OMDS-ModB2-Week4-VonKorff-Joshua would be used for the Week 4 notebook. This naming convention will help you organize your notebooks when submitting them with your Milestone Three assignment. To receive credit, the Jupyter Notebook needs to run when it is graded.
+
+We strongly encourage you to start your assignment as early as possible. This will give you more time to ask learning facilitators questions as needed.
+
+This assignment will also be submitted for peer review and feedback in Week 5.
+
+Complete your activity in the Jupyter Notebook by 11:59 pm ET on Sunday.
 
