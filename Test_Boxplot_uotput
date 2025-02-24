@@ -1,0 +1,33 @@
+# Generate data using the provided logic
+np.random.seed(0)
+num_data = 100
+data = np.exp(np.random.uniform(size=num_data) * 4)
+df = pd.DataFrame(data.T, columns=["data"])
+
+# Create the boxplot with larger figure size and medicine-themed colors
+plt.figure(figsize=(12, 8))  # Increase the figure size
+df.boxplot(column='data', 
+           patch_artist=True,  # Color the box
+           boxprops=dict(facecolor='lightcoral', color='darkred'),  # Box color (medicine red)
+           whiskerprops=dict(color='darkblue', linewidth=2),  # Whisker color (medicine blue)
+           flierprops=dict(marker='o', color='yellow', markersize=6),  # Outliers in yellow (medicine pill color)
+           medianprops=dict(color='green', linewidth=2))  # Median line (green as a medical symbol for health)
+
+# Title and labels
+plt.title('Medicine Price Distribution - Boxplot', fontsize=16, fontweight='bold', color='darkred')
+plt.ylabel('Price ($)', fontsize=12)
+
+# Annotate the 75th percentile and any outliers
+percentile_75 = df['data'].quantile(0.75)
+plt.axhline(y=percentile_75, color='orange', linestyle='--', linewidth=2)
+plt.text(percentile_75 + 1, 15, f'75th Percentile: {percentile_75:.2f}', color='orange')
+
+# Add annotation to remind of the medicine context
+plt.text(0.75, 30, 'High Medicine Prices (Outliers)', color='darkblue', fontsize=12, ha='center')
+
+# Adjust the margins to ensure the plot is not clipped
+plt.subplots_adjust(left=0.1, right=0.9, top=0.9, bottom=0.1)
+
+# Display the plot
+plt.show()
+
