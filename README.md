@@ -65,5 +65,5 @@ Complete your activity in the Jupyter Notebook by 11:59 pm ET on Sunday.
 
 
 ## Other Uploads / Homework 
-Homework 1 and Homework 3 were uploaded to this repo, not for peer review, but for part of the capstone project (they will be submitted as part of the final capstone project). 
+Only homework 2 & 4 are required for peer review. However, I uploaded all homework (#1-7) to this repo, not for peer review, but for part of the capstone project (they will be submitted as part of the final capstone project). 
 No further action is required for peer review; these homeworks are being gathered in one place for ease of sharing for final project. 
